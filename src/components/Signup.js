@@ -14,7 +14,7 @@ export default function Signup(){
             <img src={Login} style={{width:'40%'}}/>
             </Box>
             <Box>
-            <Button onClick={() => Google()} sx={{display:'flex', m:'auto'}} variant='outlined'>Login with Google</Button>
+            <Button onClick={() => Google()} sx={{display:'flex', m:'auto'}} variant='outlined'>Signup with Google</Button>
                 
             </Box>
             </Box>

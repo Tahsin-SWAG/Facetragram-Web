@@ -79,7 +79,7 @@ export default function Onmind() {
             <hr style={{ marginTop: "20px" }}></hr>
             <Box>
               <input type='file' onChange={(e) => handlePhoto(e.target.files)}/>
-              <Button color='error' onClick={logout} variant='outlined'>Logout</Button>
+              <Button color='error' onClick={logout} sx={{float:'end'}} variant='outlined'>Logout</Button>
             </Box>
           </Box>
           <Box>
